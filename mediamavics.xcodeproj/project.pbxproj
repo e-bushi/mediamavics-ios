@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64DD36A08EC784ECE2E3D723 /* Pods_mediamavics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 773463189BE4274A6272FAB1 /* Pods_mediamavics.framework */; };
 		B805F55B1FEF81380011F73E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B805F55A1FEF81380011F73E /* AppDelegate.swift */; };
 		B805F5601FEF81380011F73E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B805F55E1FEF81380011F73E /* Main.storyboard */; };
 		B805F5621FEF81380011F73E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B805F5611FEF81380011F73E /* Assets.xcassets */; };
 		B805F5651FEF81380011F73E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B805F5631FEF81380011F73E /* LaunchScreen.storyboard */; };
 		B8270E302004A2E9000D10EE /* CampaignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8270E2F2004A2E9000D10EE /* CampaignViewController.swift */; };
 		B88148701FF31639005C4D93 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B881486F1FF31639005C4D93 /* HomeViewController.swift */; };
+		B8A21EA02009241F000FA8FE /* ChannelSelection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8A21E9F2009241F000FA8FE /* ChannelSelection.swift */; };
+		B8A21EA220092480000FA8FE /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = B8A21EA120092480000FA8FE /* Podfile */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		773463189BE4274A6272FAB1 /* Pods_mediamavics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mediamavics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B805F5571FEF81380011F73E /* mediamavics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mediamavics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B805F55A1FEF81380011F73E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B805F55F1FEF81380011F73E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -24,6 +28,10 @@
 		B805F5661FEF81380011F73E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B8270E2F2004A2E9000D10EE /* CampaignViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CampaignViewController.swift; sourceTree = "<group>"; };
 		B881486F1FF31639005C4D93 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		B8A21E9F2009241F000FA8FE /* ChannelSelection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelSelection.swift; sourceTree = "<group>"; };
+		B8A21EA120092480000FA8FE /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CFE75649274884BE8EED97C5 /* Pods-mediamavics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mediamavics.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mediamavics/Pods-mediamavics.debug.xcconfig"; sourceTree = "<group>"; };
+		EEDD139E272DFA1FDC4929DC /* Pods-mediamavics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mediamavics.release.xcconfig"; path = "Pods/Target Support Files/Pods-mediamavics/Pods-mediamavics.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +39,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64DD36A08EC784ECE2E3D723 /* Pods_mediamavics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4FA45B43C63E270C6860CA16 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CFE75649274884BE8EED97C5 /* Pods-mediamavics.debug.xcconfig */,
+				EEDD139E272DFA1FDC4929DC /* Pods-mediamavics.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5C629CC6178903A6C2A36B50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				773463189BE4274A6272FAB1 /* Pods_mediamavics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B805F54E1FEF81380011F73E = {
 			isa = PBXGroup;
 			children = (
 				B805F5591FEF81380011F73E /* mediamavics */,
+				B8A21EA120092480000FA8FE /* Podfile */,
 				B805F5581FEF81380011F73E /* Products */,
+				4FA45B43C63E270C6860CA16 /* Pods */,
+				5C629CC6178903A6C2A36B50 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,6 +85,9 @@
 		B805F5591FEF81380011F73E /* mediamavics */ = {
 			isa = PBXGroup;
 			children = (
+				B8A21E9C20092331000FA8FE /* Model */,
+				B8A21E9D20092345000FA8FE /* View */,
+				B8A21E9E20092349000FA8FE /* Controller */,
 				B805F55E1FEF81380011F73E /* Main.storyboard */,
 				B881486F1FF31639005C4D93 /* HomeViewController.swift */,
 				B8270E2F2004A2E9000D10EE /* CampaignViewController.swift */,
@@ -75,6 +107,28 @@
 			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		B8A21E9C20092331000FA8FE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				B8A21E9F2009241F000FA8FE /* ChannelSelection.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B8A21E9D20092345000FA8FE /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B8A21E9E20092349000FA8FE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -82,9 +136,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B805F5691FEF81380011F73E /* Build configuration list for PBXNativeTarget "mediamavics" */;
 			buildPhases = (
+				00B24E0BD61E96B9AC2197A2 /* [CP] Check Pods Manifest.lock */,
 				B805F5531FEF81380011F73E /* Sources */,
 				B805F5541FEF81380011F73E /* Frameworks */,
 				B805F5551FEF81380011F73E /* Resources */,
+				C23A6E10D64E6A0D9290C447 /* [CP] Embed Pods Frameworks */,
+				E607F9C744D1982CF6033AEC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -136,17 +193,75 @@
 			files = (
 				B805F5651FEF81380011F73E /* LaunchScreen.storyboard in Resources */,
 				B805F5621FEF81380011F73E /* Assets.xcassets in Resources */,
+				B8A21EA220092480000FA8FE /* Podfile in Resources */,
 				B805F5601FEF81380011F73E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		00B24E0BD61E96B9AC2197A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-mediamavics-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C23A6E10D64E6A0D9290C447 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-mediamavics/Pods-mediamavics-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mediamavics/Pods-mediamavics-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E607F9C744D1982CF6033AEC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mediamavics/Pods-mediamavics-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B805F5531FEF81380011F73E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8A21EA02009241F000FA8FE /* ChannelSelection.swift in Sources */,
 				B8270E302004A2E9000D10EE /* CampaignViewController.swift in Sources */,
 				B805F55B1FEF81380011F73E /* AppDelegate.swift in Sources */,
 				B88148701FF31639005C4D93 /* HomeViewController.swift in Sources */,
@@ -284,6 +399,7 @@
 		};
 		B805F56A1FEF81380011F73E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFE75649274884BE8EED97C5 /* Pods-mediamavics.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +415,7 @@
 		};
 		B805F56B1FEF81380011F73E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EEDD139E272DFA1FDC4929DC /* Pods-mediamavics.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
