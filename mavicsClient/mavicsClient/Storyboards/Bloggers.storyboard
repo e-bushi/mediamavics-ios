@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="19h-Bx-Urc">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Bloggers-->
+        <scene sceneID="yue-Kw-PGt">
+            <objects>
+                <viewController title="Bloggers" id="19h-Bx-Urc" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="O0o-4p-epl">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="sFe-iC-7LJ"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Bloggers" image="bloggers" id="hKB-wO-MRE"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uzQ-8U-1I0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="495" y="292"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="bloggers" width="42" height="21"/>
+    </resources>
+</document>

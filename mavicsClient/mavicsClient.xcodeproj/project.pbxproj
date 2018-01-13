@@ -8,22 +8,40 @@
 
 /* Begin PBXBuildFile section */
 		B89EA205200AB17C00D1987F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89EA204200AB17C00D1987F /* AppDelegate.swift */; };
-		B89EA207200AB17C00D1987F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B89EA206200AB17C00D1987F /* ViewController.swift */; };
-		B89EA20A200AB17C00D1987F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B89EA208200AB17C00D1987F /* Main.storyboard */; };
 		B89EA20C200AB17C00D1987F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B89EA20B200AB17C00D1987F /* Assets.xcassets */; };
 		B89EA20F200AB17C00D1987F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B89EA20D200AB17C00D1987F /* LaunchScreen.storyboard */; };
 		B89EA218200AB5DA00D1987F /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B89EA217200AB5DA00D1987F /* Realm.framework */; };
+		BFF356AD200ABAD3000ACC16 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF356A2200ABAD2000ACC16 /* HomeViewController.swift */; };
+		BFF356AE200ABAD3000ACC16 /* CampaignViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF356A3200ABAD2000ACC16 /* CampaignViewController.swift */; };
+		BFF356B1200ABAD3000ACC16 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFF356AA200ABAD3000ACC16 /* Main.storyboard */; };
+		BFF356B2200ABAD3000ACC16 /* Campaign.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFF356AB200ABAD3000ACC16 /* Campaign.storyboard */; };
+		BFF356B5200ABD9C000ACC16 /* ChannelSelection.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFF356B4200ABD9C000ACC16 /* ChannelSelection.storyboard */; };
+		BFF356B7200ABE02000ACC16 /* CampaignDetails.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFF356B6200ABE02000ACC16 /* CampaignDetails.storyboard */; };
+		BFF356B9200ABE73000ACC16 /* CampaignGoals.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFF356B8200ABE73000ACC16 /* CampaignGoals.storyboard */; };
+		BFF356BB200ABED9000ACC16 /* AudienceAndBudget.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFF356BA200ABED9000ACC16 /* AudienceAndBudget.storyboard */; };
+		BFF356BD200ABF19000ACC16 /* ReviewAndSubmit.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFF356BC200ABF19000ACC16 /* ReviewAndSubmit.storyboard */; };
+		BFF356BF200AC1F4000ACC16 /* Bloggers.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFF356BE200AC1F4000ACC16 /* Bloggers.storyboard */; };
+		BFF356C1200AC206000ACC16 /* Stats.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFF356C0200AC206000ACC16 /* Stats.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B89EA201200AB17C00D1987F /* mavicsClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mavicsClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B89EA204200AB17C00D1987F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B89EA206200AB17C00D1987F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B89EA209200AB17C00D1987F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B89EA20B200AB17C00D1987F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B89EA20E200AB17C00D1987F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B89EA210200AB17C00D1987F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B89EA217200AB5DA00D1987F /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Realm.framework; path = Carthage/Build/iOS/Realm.framework; sourceTree = "<group>"; };
+		BFF356A2200ABAD2000ACC16 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		BFF356A3200ABAD2000ACC16 /* CampaignViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CampaignViewController.swift; sourceTree = "<group>"; };
+		BFF356AA200ABAD3000ACC16 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		BFF356AB200ABAD3000ACC16 /* Campaign.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Campaign.storyboard; sourceTree = "<group>"; };
+		BFF356B4200ABD9C000ACC16 /* ChannelSelection.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ChannelSelection.storyboard; sourceTree = "<group>"; };
+		BFF356B6200ABE02000ACC16 /* CampaignDetails.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CampaignDetails.storyboard; sourceTree = "<group>"; };
+		BFF356B8200ABE73000ACC16 /* CampaignGoals.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = CampaignGoals.storyboard; sourceTree = "<group>"; };
+		BFF356BA200ABED9000ACC16 /* AudienceAndBudget.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = AudienceAndBudget.storyboard; sourceTree = "<group>"; };
+		BFF356BC200ABF19000ACC16 /* ReviewAndSubmit.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ReviewAndSubmit.storyboard; sourceTree = "<group>"; };
+		BFF356BE200AC1F4000ACC16 /* Bloggers.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Bloggers.storyboard; sourceTree = "<group>"; };
+		BFF356C0200AC206000ACC16 /* Stats.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Stats.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +76,12 @@
 		B89EA203200AB17C00D1987F /* mavicsClient */ = {
 			isa = PBXGroup;
 			children = (
+				BFF356A1200ABAD2000ACC16 /* Controllers */,
+				BFF356A5200ABAD3000ACC16 /* Helpers */,
+				BFF356A4200ABAD3000ACC16 /* Models */,
+				BFF356A7200ABAD3000ACC16 /* Storyboards */,
+				BFF356A6200ABAD3000ACC16 /* Supporting Files */,
 				B89EA204200AB17C00D1987F /* AppDelegate.swift */,
-				B89EA206200AB17C00D1987F /* ViewController.swift */,
-				B89EA208200AB17C00D1987F /* Main.storyboard */,
 				B89EA20B200AB17C00D1987F /* Assets.xcassets */,
 				B89EA20D200AB17C00D1987F /* LaunchScreen.storyboard */,
 				B89EA210200AB17C00D1987F /* Info.plist */,
@@ -74,6 +95,52 @@
 				B89EA217200AB5DA00D1987F /* Realm.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFF356A1200ABAD2000ACC16 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				BFF356A2200ABAD2000ACC16 /* HomeViewController.swift */,
+				BFF356A3200ABAD2000ACC16 /* CampaignViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		BFF356A4200ABAD3000ACC16 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		BFF356A5200ABAD3000ACC16 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		BFF356A6200ABAD3000ACC16 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BFF356A7200ABAD3000ACC16 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				BFF356AA200ABAD3000ACC16 /* Main.storyboard */,
+				BFF356C0200AC206000ACC16 /* Stats.storyboard */,
+				BFF356BE200AC1F4000ACC16 /* Bloggers.storyboard */,
+				BFF356AB200ABAD3000ACC16 /* Campaign.storyboard */,
+				BFF356B4200ABD9C000ACC16 /* ChannelSelection.storyboard */,
+				BFF356B6200ABE02000ACC16 /* CampaignDetails.storyboard */,
+				BFF356B8200ABE73000ACC16 /* CampaignGoals.storyboard */,
+				BFF356BA200ABED9000ACC16 /* AudienceAndBudget.storyboard */,
+				BFF356BC200ABF19000ACC16 /* ReviewAndSubmit.storyboard */,
+			);
+			path = Storyboards;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -136,9 +203,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFF356B2200ABAD3000ACC16 /* Campaign.storyboard in Resources */,
+				BFF356BF200AC1F4000ACC16 /* Bloggers.storyboard in Resources */,
 				B89EA20F200AB17C00D1987F /* LaunchScreen.storyboard in Resources */,
+				BFF356B1200ABAD3000ACC16 /* Main.storyboard in Resources */,
+				BFF356B9200ABE73000ACC16 /* CampaignGoals.storyboard in Resources */,
 				B89EA20C200AB17C00D1987F /* Assets.xcassets in Resources */,
-				B89EA20A200AB17C00D1987F /* Main.storyboard in Resources */,
+				BFF356C1200AC206000ACC16 /* Stats.storyboard in Resources */,
+				BFF356B5200ABD9C000ACC16 /* ChannelSelection.storyboard in Resources */,
+				BFF356B7200ABE02000ACC16 /* CampaignDetails.storyboard in Resources */,
+				BFF356BB200ABED9000ACC16 /* AudienceAndBudget.storyboard in Resources */,
+				BFF356BD200ABF19000ACC16 /* ReviewAndSubmit.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,22 +242,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B89EA207200AB17C00D1987F /* ViewController.swift in Sources */,
+				BFF356AE200ABAD3000ACC16 /* CampaignViewController.swift in Sources */,
 				B89EA205200AB17C00D1987F /* AppDelegate.swift in Sources */,
+				BFF356AD200ABAD3000ACC16 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		B89EA208200AB17C00D1987F /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B89EA209200AB17C00D1987F /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B89EA20D200AB17C00D1987F /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -306,14 +374,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3L8W3EB4SJ;
+				DEVELOPMENT_TEAM = CGUE68EN3T;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = mavicsClient/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jcswifty.mavicsClient;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jeck.mavicsClient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -325,14 +393,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 3L8W3EB4SJ;
+				DEVELOPMENT_TEAM = CGUE68EN3T;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
 				);
 				INFOPLIST_FILE = mavicsClient/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.jcswifty.mavicsClient;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Jeck.mavicsClient;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

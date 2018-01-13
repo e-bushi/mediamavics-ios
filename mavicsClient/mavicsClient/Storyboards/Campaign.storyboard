@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="yNF-bg-Q54">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Campaign-->
+        <scene sceneID="1g2-SF-DTL">
+            <objects>
+                <viewController title="Campaign" id="3Q1-JO-968" customClass="CampaignViewController" customModule="mavicsClient" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="U95-NM-l4q">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i1K-9U-bPh">
+                                <rect key="frame" x="97" y="541" width="180" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.43099445999430375" green="0.75705901015228427" blue="0.0056238822051339812" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <state key="normal" title="Add Campaign">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="gxS-xQ-krZ" kind="show" id="eOq-3a-u9v"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <viewLayoutGuide key="safeArea" id="Aqq-0j-NWu"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="8Wf-tE-IfY"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iT2-K0-9bc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-511" y="1126"/>
+        </scene>
+        <!--Campaign-->
+        <scene sceneID="60C-LE-26p">
+            <objects>
+                <navigationController title="Campaign" automaticallyAdjustsScrollViewInsets="NO" id="yNF-bg-Q54" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Campaign" image="campaign" id="Ntt-gX-VAL"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Tez-OY-RvY">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="3Q1-JO-968" kind="relationship" relationship="rootViewController" id="wi7-hE-FVy"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Tid-4B-8bC" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1313" y="1126"/>
+        </scene>
+        <!--ChannelSelection-->
+        <scene sceneID="xSD-jW-gHt">
+            <objects>
+                <viewControllerPlaceholder storyboardName="ChannelSelection" id="gxS-xQ-krZ" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="bUz-5d-eYV" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="297" y="1126"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="campaign" width="21" height="21"/>
+    </resources>
+</document>
