@@ -33,7 +33,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         <viewLayoutGuide key="safeArea" id="Aqq-0j-NWu"/>
                     </view>
-                    <navigationItem key="navigationItem" id="8Wf-tE-IfY"/>
+                    <navigationItem key="navigationItem" title="Campaign Overview" id="8Wf-tE-IfY">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="9hr-kf-XOt"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iT2-K0-9bc" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

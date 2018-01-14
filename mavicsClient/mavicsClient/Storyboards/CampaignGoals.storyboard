@@ -9,7 +9,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Campaign Goals-->
         <scene sceneID="a7s-BF-Yjk">
             <objects>
                 <viewController id="zks-rd-ukc" sceneMemberID="viewController">
@@ -33,6 +33,12 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="F0N-8Z-PXB"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Campaign Goals" id="uaJ-aj-U3m">
+                        <barButtonItem key="backBarButtonItem" title="Back" id="q5y-od-vcc"/>
+                        <barButtonItem key="rightBarButtonItem" enabled="NO" title="3/5" id="uCr-XD-hun">
+                            <color key="tintColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </barButtonItem>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wuI-E2-vqy" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -22,6 +22,7 @@
 		BFF356BD200ABF19000ACC16 /* ReviewAndSubmit.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFF356BC200ABF19000ACC16 /* ReviewAndSubmit.storyboard */; };
 		BFF356BF200AC1F4000ACC16 /* Bloggers.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFF356BE200AC1F4000ACC16 /* Bloggers.storyboard */; };
 		BFF356C1200AC206000ACC16 /* Stats.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFF356C0200AC206000ACC16 /* Stats.storyboard */; };
+		BFF356C3200AF17C000ACC16 /* ChannelSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF356C2200AF17C000ACC16 /* ChannelSelectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		BFF356BC200ABF19000ACC16 /* ReviewAndSubmit.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = ReviewAndSubmit.storyboard; sourceTree = "<group>"; };
 		BFF356BE200AC1F4000ACC16 /* Bloggers.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Bloggers.storyboard; sourceTree = "<group>"; };
 		BFF356C0200AC206000ACC16 /* Stats.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Stats.storyboard; sourceTree = "<group>"; };
+		BFF356C2200AF17C000ACC16 /* ChannelSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelSelectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +104,7 @@
 			children = (
 				BFF356A2200ABAD2000ACC16 /* HomeViewController.swift */,
 				BFF356A3200ABAD2000ACC16 /* CampaignViewController.swift */,
+				BFF356C2200AF17C000ACC16 /* ChannelSelectionViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -243,6 +246,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFF356AE200ABAD3000ACC16 /* CampaignViewController.swift in Sources */,
+				BFF356C3200AF17C000ACC16 /* ChannelSelectionViewController.swift in Sources */,
 				B89EA205200AB17C00D1987F /* AppDelegate.swift in Sources */,
 				BFF356AD200ABAD3000ACC16 /* HomeViewController.swift in Sources */,
 			);
