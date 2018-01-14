@@ -23,6 +23,9 @@
 		BFF356BF200AC1F4000ACC16 /* Bloggers.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFF356BE200AC1F4000ACC16 /* Bloggers.storyboard */; };
 		BFF356C1200AC206000ACC16 /* Stats.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFF356C0200AC206000ACC16 /* Stats.storyboard */; };
 		BFF356C3200AF17C000ACC16 /* ChannelSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF356C2200AF17C000ACC16 /* ChannelSelectionViewController.swift */; };
+		F6E3BFDC200B25BE001ABA9C /* Campaign.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E3BFDB200B25BE001ABA9C /* Campaign.swift */; };
+		F6E3BFDE200B27C0001ABA9C /* Stats.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E3BFDD200B27C0001ABA9C /* Stats.swift */; };
+		F6E3BFE0200BE0CC001ABA9C /* Influencer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6E3BFDF200BE0CC001ABA9C /* Influencer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +47,9 @@
 		BFF356BE200AC1F4000ACC16 /* Bloggers.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Bloggers.storyboard; sourceTree = "<group>"; };
 		BFF356C0200AC206000ACC16 /* Stats.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Stats.storyboard; sourceTree = "<group>"; };
 		BFF356C2200AF17C000ACC16 /* ChannelSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChannelSelectionViewController.swift; sourceTree = "<group>"; };
+		F6E3BFDB200B25BE001ABA9C /* Campaign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Campaign.swift; sourceTree = "<group>"; };
+		F6E3BFDD200B27C0001ABA9C /* Stats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stats.swift; sourceTree = "<group>"; };
+		F6E3BFDF200BE0CC001ABA9C /* Influencer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Influencer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +93,9 @@
 				B89EA20B200AB17C00D1987F /* Assets.xcassets */,
 				B89EA20D200AB17C00D1987F /* LaunchScreen.storyboard */,
 				B89EA210200AB17C00D1987F /* Info.plist */,
+				F6E3BFDB200B25BE001ABA9C /* Campaign.swift */,
+				F6E3BFDD200B27C0001ABA9C /* Stats.swift */,
+				F6E3BFDF200BE0CC001ABA9C /* Influencer.swift */,
 			);
 			path = mavicsClient;
 			sourceTree = "<group>";
@@ -246,8 +255,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFF356AE200ABAD3000ACC16 /* CampaignViewController.swift in Sources */,
+				F6E3BFDE200B27C0001ABA9C /* Stats.swift in Sources */,
 				BFF356C3200AF17C000ACC16 /* ChannelSelectionViewController.swift in Sources */,
 				B89EA205200AB17C00D1987F /* AppDelegate.swift in Sources */,
+				F6E3BFDC200B25BE001ABA9C /* Campaign.swift in Sources */,
+				F6E3BFE0200BE0CC001ABA9C /* Influencer.swift in Sources */,
 				BFF356AD200ABAD3000ACC16 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
